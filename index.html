@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--section -->
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">About</a></li>
+        <li class="ctn"><a href="#">contact</a></li>
+      </ul>
+      <img src="menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>explore the coloful world</h2>
+        <div class="line"></div>
+        <h1>a wonderful gift</h1>
+        <a href="" class="ctn">learn more</a>
+      </div>
+    </header>
+    <!--section-->
+    <section class="events">
+      <div class="title">
+        <h1>upcoming events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="img1.png" alt="" />
+          <h4>everest camp trek</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            fugiat!
+          </p>
+          <a href="#" class="ctn">learn more</a>
+        </div>
+        <div class="column">
+          <img src="img2.png" alt="" />
+          <h4>walking holidays</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+            fugiat!
+          </p>
+          <a href="#" class="ctn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!--section-->
+    <section class="explore">
+      <div class="explore-content">
+        <h1>explore the world</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+          itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+          pariatur!
+        </p>
+        <a href="" class="ctn">learn more</a>
+      </div>
+    </section>
+    <!-- section  -->
+    <section class="tours">
+      <div class="row">
+          <div class="col content-col">
+           <h1>upcoming tours and destination</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet odio, error fugiat dicta optio quae nemo voluptas earum dolorem facilis.</p>
+          <a href="#" class="ctn">learn more</a>
+      </div>
+      <div class="col image-col">
+          <div class="image-gallery">
+              <img src="img3.png" alt="">
+              <img src="img4.png" alt="">
+              <img src="img5.png" alt="">
+              <img src="img6.png" alt="">
+          </div>
+      </div>
+    </div>
+    </section>
+    <!-- section  -->
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, unde!</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+    <script>
+      const menubtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+      menubtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
